@@ -710,7 +710,7 @@ Explosion = function () {
   this.draw = function () {
     if (this.visible) {
       this.context.save();
-      this.context.strokeStyle = 'red';
+      this.context.strokeStyle = 'yellow';
       this.context.lineWidth = 1.0 / this.scale;
       this.context.beginPath();
       for (var i = 0; i < 5; i++) {
